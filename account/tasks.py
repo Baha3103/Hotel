@@ -14,7 +14,7 @@ def send_password_change_email(user_name, to_email):
     # сообщения
     body = ""  #  Тело почты
     sender = settings.EMAIL_FROM  #  отправитель
-    receivers = ['aman.abdyldaev@gmail.com']  #  Получатели
+    receivers = ['ggwpbaha@gmail.com']  #  Получатели
     html_body = 'Уважаемый пользователь, нажмите эту ссылку, чтобы сменить пароль ' #  html mail body
     send_mail(subject, body, sender, receivers, html_message=html_body)
 
